@@ -1,0 +1,28 @@
+ LINKS HTML SEPARADOS:
+
+- Impacto Causa Animal: <div class="flourish-embed flourish-chart" data-src="visualisation/6812326">
+<script src="https://public.flourish.studio/resources/embed.js">
+</script></div>
+
+- Impacto Causa Ambiental:
+<div class="flourish-embed flourish-chart"
+data-src="visualisation/6813807">
+<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Juntando as causas:
+<div class="flourish-embed flourish-chart"
+data-src="visualisation/6824812">
+<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Cada animal, uma história!: <div class="flourish-embed flourish-cards"
+data-src="visualisation/6812885"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- E se nós não estivéssemos aqui: <div class="flourish-embed flourish-bar-chart-race" data-src="visualisation/6823648">
+<script src="https://public.flourish.studio/resources/embed.js">
+</script></div>
+
+- Vamos brincar com os dados?:
+<div class="flourish-embed flourish-survey" data-src="visualisation/6812725">
+<script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+

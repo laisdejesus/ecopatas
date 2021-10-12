@@ -1,0 +1,20 @@
+LINK TODAS AS ARTES HTML:
+<div class="flourish-embed" data-src="story/936632"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+
+ABAIXO, LINKS HTML SEPARADOS:
+- Texto introdutório 1: <div class="flourish-embed" data-src="visualisation/6813984"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Texto introdutório 2: <div class="flourish-embed" data-src="visualisation/6817822"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Impacto Causa Animal: <div class="flourish-embed flourish-chart" data-src="visualisation/6812326"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Impacto Causa Ambiental: <div class="flourish-embed flourish-chart" data-src="visualisation/6813807"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Cada animal, uma história!: <div class="flourish-embed flourish-cards" data-src="visualisation/6812885"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- Vamos brincar com os dados?: <div class="flourish-embed flourish-survey" data-src="visualisation/6812725"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
+
+- TALVEZ EU FAÇA UMA NOVA ARTE AQUI QUE ELAS PEDIRAM
+
+- Texto Final: <div class="flourish-embed" data-src="visualisation/6818128"><script src="https://public.flourish.studio/resources/embed.js"></script></div>
