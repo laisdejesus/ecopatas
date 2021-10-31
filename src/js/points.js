@@ -1,4 +1,9 @@
 let array = []
+
+const regions = []
+const regionNames = []
+const regionDisplays = []
+
 async function requestPoints(url){
     
     const myInit = {
@@ -40,12 +45,81 @@ function createCard(point) {
     pNeighborhood.innerHTML = point.neighborhood
     pRegion.innerHTML = point.region
     pSchedule.innerHTML = point.schedule
+
+    card.style.borderBottom = "1px solid black"
     
     card.appendChild(pName)
     card.appendChild(pCep)
 
-    return card;
+    formatRegions(card, point.region)
+}
 
+function formatRegions(card, regionName) {
+
+    if (!regionNames.includes(regionName)) {
+        regionNames.push(regionName)
+        regionDisplays.push(false)
+
+        const newRegionCard = {
+            name: regionName,
+            points: [card]
+        }
+
+        regions.push(newRegionCard)
+    }
+    else {
+        const regionIndex = regionNames.indexOf(regionName)
+
+        regions[regionIndex].points.push(card)
+    }
+}
+
+function showContent(regionName) {
+    
+    const regionCard = document.getElementById(regionName)
+
+    showingCard = regionDisplays[regionNames.indexOf(regionName)]
+
+    if (showingCard) {
+        regionCard.style.display = "none";
+    }
+    else {
+        regionCard.style.display = "block";
+    }
+
+    regionDisplays[regionNames.indexOf(regionName)] = !showingCard
+}
+
+function populateHTML(card) {
+    for (const region of regions) {
+
+        regionCard = document.createElement("div");
+
+        pointsCard = document.createElement("div");
+        pointsCard.id = region.name
+        pointsCard.style.display = "none";
+
+        // regionCard.className = region.name
+
+        header = document.createElement("h3");
+
+        header.style.backgroundColor = "grey";
+        header.style.border = "1px solid black";
+        header.style.cursor = "pointer";
+
+        header.innerHTML = region.name
+        header.onclick = () => showContent(region.name);
+
+        regionCard.appendChild(header)
+        regionCard.appendChild(pointsCard)
+
+        for (const point of region.points) {
+
+            pointsCard.appendChild(point)
+        }
+
+        card.appendChild(regionCard)
+    }
 }
 
 
@@ -53,7 +127,6 @@ async function main() {
     let dataPoints = await requestPoints('https://test-82d8c-default-rtdb.firebaseio.com/pickupPoints.json/')
     .then(data =>  {
         array = Object.values(data)
-        console.log(data)
     })
     .catch(error => console.error(error))
 
@@ -61,14 +134,13 @@ async function main() {
     // let objPoints = JSON.parse(dataPoints)
     // let arrayPoints = Object.values(objPoints)
 
-    console.log( array, "ihuul")
     let card = document.getElementById("card")
 
     array.forEach(point => {
-        let text = createCard(point)
-        card.appendChild(text)
+        createCard(point)
     })
 
+    populateHTML(card)
     //Para cada ponto criar um texto
 }
 
