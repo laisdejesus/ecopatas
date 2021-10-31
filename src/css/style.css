@@ -1,1 +1,53 @@
-# Empty CSS file for your own CSS
+* {
+    margin:0;
+    padding:0;
+
+}
+header {
+    background-color: #E0F2F0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1% 10%;
+    
+    position: absolute;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+}
+
+header img {
+    width: 70%;
+}
+
+header nav {
+    position: static;
+    height: 30px;
+    left: 10px;
+    top: 0px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+
+    letter-spacing: 0.2px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #007A68;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+main {
+    padding: 10%;
+}
+
+h2 {
+    color: #007A68;
+}
