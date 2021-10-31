@@ -1,1 +1,147 @@
-# Empty CSS file for your own CSS
+* {
+    margin:0;
+    padding:0;
+
+}
+header {
+    background-color: #E0F2F0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 1% 10%;
+    
+    position: absolute;
+    height: 101px;
+    left: 0px;
+    top: 0px;
+}
+
+header img {
+    width: 70%;
+}
+
+header nav {
+    position: static;
+    height: 30px;
+    left: 5px;
+    top: 0px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 24px;
+
+    letter-spacing: 0.2px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    color: #007A68;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+main {
+    padding: 8%;
+}
+
+h2 {
+    color: #007A68;
+    position: static;
+    height: 48px;
+    left: 160px;
+    top: 110px;
+
+    /* H2 */
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 50px;
+    /* identical to box height, or 121% */
+
+    display: flex;
+    align-items: flex-end;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 50px 0px;
+}
+
+
+#answers h6{
+    position: static;
+
+    height: 30px;
+    left: 0px;
+    top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    
+    /* Base Primária/verde.700 */
+    color: #007A68;   
+    /* Inside Auto Layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px
+
+} 
+
+#answers p, #title p {
+    position: static;
+    height: 30px;
+    left: 160px;
+    top: 0px;
+    padding-bottom: 120px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight:500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* cinza.dark */
+
+    color: #474747;
+    text-align: left;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 8px 0px;
+}
+
+#answers a {
+    color: #E86B2B;
+    text-decoration-line: underline;
+
+}
