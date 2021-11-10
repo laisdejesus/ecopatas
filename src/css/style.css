@@ -18,6 +18,7 @@ header {
     height: 101px;
     left: 0px;
     top: 0px;
+    margin: 0;
 
 }
 
@@ -80,6 +81,25 @@ h2 {
     align-self: stretch;
     flex-grow: 0;
     margin: 50px 0px;
+}
+
+.titulo-data h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 48px;
+    color: #007A68;
+    margin-left: 1%;
+}
+
+.titulo-data p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    margin-left: 1%;
 }
 
 
