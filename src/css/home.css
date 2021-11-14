@@ -115,4 +115,66 @@
     line-height: 24px;
 }
 
+#section-dois {
+    background-color: #FFFFFF;
+    /* H2 */
+    font-family:  'Poppins', sans-serif;;
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    padding: 120px 160px;
 
+}
+
+#section-dois h3 {
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 48px;
+    /* identical to box height, or 121% */
+
+    /* text-align: left; */
+
+    /* Base Primária/verde.700 */
+
+    color: #007A68;
+     
+}
+
+#section-dois p {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    /* or 160% */
+
+    margin: 60px 0;
+    padding-right: 320px;
+
+    letter-spacing: 0.2px;
+    color: #474747;
+
+}
+
+#section-dois button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px;
+    margin-left: 25%;
+    
+    position: static;
+    width: 545px;
+    height: 56px;
+    left: 288px;
+    top: 0px;
+    
+    /* Base Primária/verde.700 */
+    
+    background: #007A68;
+    border-radius: 8px;
+    
+    /* Inside Auto Layout */
+
+}
