@@ -14,7 +14,7 @@ header {
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
-    padding: 1% 10%;
+    padding: 1% 8%;
     height: 101px;
     left: 0px;
     top: 0px;
@@ -53,6 +53,7 @@ main {
     margin: 0 8%;
     
 }
+
 
 h2 {
     color: #007A68;
