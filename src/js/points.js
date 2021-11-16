@@ -30,26 +30,37 @@ async function requestPoints(url){
 function createCard(point) {
     card = document.createElement("div");
     p = document.createElement("p");
-    pName = document.createElement("p");
+    pName = document.createElement("h5");
     pCep = document.createElement("p");
-    pStreet = document.createElement("p");
+    pStreetNumber = document.createElement("p");
     pNumber = document.createElement("p");
     pNeighborhood = document.createElement("p");
     pRegion = document.createElement("p");
     pSchedule = document.createElement("p");
 
     pName.innerHTML = point.name
-    pCep.innerHTML = point.cep
-    pStreet.innerHTML = point.street
+    pCep.innerHTML = " CEP: "+ point.cep
+    pStreetNumber.innerHTML = point.street + ", " + point.number
     pNumber.innerHTML = point.number
     pNeighborhood.innerHTML = point.neighborhood
     pRegion.innerHTML = point.region
     pSchedule.innerHTML = point.schedule
 
-    card.style.borderBottom = "1px solid black"
+    card.style.border = "2px solid #FFF2E2"
+    card.style.boxSizing = "border-box"
+    card.style.borderRadius = "8px"
+    card.style.padding = "10px"
+    card.style.margin = "20px 5px"
+    card.style.width = "30%"
+    
     
     card.appendChild(pName)
     card.appendChild(pCep)
+    card.appendChild(pStreetNumber)
+    
+    card.appendChild(pNeighborhood)
+    card.appendChild(pRegion)
+    card.appendChild(pSchedule)
 
     formatRegions(card, point.region)
 }
@@ -61,7 +72,7 @@ function formatRegions(card, regionName) {
         regionDisplays.push(false)
 
         const newRegionCard = {
-            name: regionName,
+            name: "SP - " + regionName,
             points: [card]
         }
 
@@ -84,7 +95,12 @@ function showContent(regionName) {
         regionCard.style.display = "none";
     }
     else {
-        regionCard.style.display = "block";
+        regionCard.style.display = "flex";
+        regionCard.style.flexWrap = "wrap";
+
+        // regionCard.style.justifyContent = "flex-start"
+        // regionCard.style.gridTemplateColumn = "1fr 1fr 1fr";
+        // regionCard.style.gridTemplateRow = "auto";
     }
 
     regionDisplays[regionNames.indexOf(regionName)] = !showingCard
@@ -103,8 +119,8 @@ function populateHTML(card) {
 
         header = document.createElement("h3");
 
-        header.style.backgroundColor = "grey";
-        header.style.border = "1px solid black";
+        // header.style.backgroundColor = "#FFF2E2";
+        // header.style.border = "1px solid black";
         header.style.cursor = "pointer";
 
         header.innerHTML = region.name

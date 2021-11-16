@@ -338,7 +338,9 @@ i {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 160px;
+    padding: 70px 120px;
+    width: 100vw;
+    margin: 0;
 
     position: static;
     width: 1441px;
@@ -349,11 +351,90 @@ i {
     /* Verde Primária - Variações/verde.50 */
 
     background: #E0F2F0;
+}
 
-    /* Inside Auto Layout */
+#section-seis-header {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
 
     flex: none;
-    order: 5;
+    order: 0;
+    align-self: stretch;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 68px -10px;
+
+}
+
+#section-seis-header h3 {
+
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 48px;
+    /* identical to box height, or 121% */
+
+    display: flex;
+    align-items: flex-end;
+    /* Base Primária/verde.700 */
+
+    color: #007A68;
+}
+
+#section-seis-header p {
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    padding-top: 38px;
+    /* identical to box height, or 120% */
+
+    letter-spacing: 0.2px;
+
+    /* cinza.dark */
+
+    color: #474747;
+}
+
+
+#section-seis-videos {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    /* row-gap: 0px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 390px;
+    margin-top: -50px;
+
+    position: static;
+   
+    left: 0px;
+    top: 0px;
+    /* Inside Auto Layout */
+
+    /* flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 34px; */
+}
+
+#section-seis-videos iframe {
+    width: 353px;
+    height: 200px;
+
+}
+
+#entrevista-2 {
+    margin-top: -20px;
+    
+}
+#entrevista-3 {
+    margin-top: 35px;
+    
+}
+#entrevista-5{
+    margin-top: 65px;
 }
