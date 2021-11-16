@@ -1,0 +1,169 @@
+#section-1, #section-2 {
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    
+    font-feature-settings: 'pnum' on, 'lnum' on;   
+    display: flex;
+    
+    align-self: stretch;
+    flex-grow: 0;    
+
+}
+#section-1 h2 {
+    margin: 68px 0px;
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 48px;
+    /* identical to box height, or 121% */
+    
+    flex:none;
+    align-items: flex-end;
+    color: #007A68;
+    order: 0;
+}
+
+#section-1 img {
+    position: static;
+    width: 1050px;
+    height: 522px;
+    left: 160px;
+    top: 236px;
+
+    
+    border-radius: 8px;
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#section-1 p, #section-2 p{
+    margin: 34px 0px;
+    padding-right: 0px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    letter-spacing: 0.2px;
+    color: #474747;
+    order: 2;
+}
+
+#section-2 p {
+    padding-right: 130px;
+}
+.div-icon {
+    text-align: center;
+}
+
+#section-2 img {
+    
+    /* Inside Auto Layout */
+    text-align: center;
+    padding-right: 100px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 24px 0px;
+        
+}
+#section-2 h6 {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    padding-right: 100px;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    
+    /* Base Primária/verde.700 */
+    
+    color: #007A68;
+    order: 0;
+}
+
+#checkbox {
+    /* Auto Layout */
+
+    /* display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px; */
+
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 150%;
+    /* or 30px */
+
+    letter-spacing: 0.2px;
+    color: #474747;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    padding-right: 10px;
+    
+}
+
+#section-2 a {
+    color:#E86B2B;
+    
+}
+
+.div-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 36px;
+    background: #007A68;
+    border-radius: 8px;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 60px 0px;
+}
+
+button {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.16px;
+
+    /* branco */
+
+    color: #FFFFFF;
+    background-color: #007A68;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    border: 0px solid #007A68;
+}
+
+a:hover {
+    text-decoration: none;
+
+}
+
