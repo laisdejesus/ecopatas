@@ -90,6 +90,10 @@
 
     color: #FFFFFF;
 }
+#section-um-infos button:hover, #section-um-infos a:hover {
+    background-color: #007A68;
+    text-decoration: none;
+}
 
 #section-um-img img{
     width: 510px;
