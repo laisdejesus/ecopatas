@@ -100,14 +100,14 @@
 									Você pode nos ajudar na triagem e separação do material recebido dos pontos de arrecadação. Os encontros para realizar triagem do material acontecem aos sábados. <b>É necessário que você leia e aceite os termos.</b>
 								</p>
 								<div id="checkbox">
-									<input type="checkbox" id="terms" name="terms">
+									<input type="checkbox" id="terms" name="terms" onchange="enable()">
 									<label for="terms">Li e estou de acordo com os <a href= "#">termos do voluntariado Ecopatas </a> </label>
 								</div>
 								
-								<div class="div-button">
-									<button>
-										Quero triar material aos sábados
-									</button>
+								<div class="div-button" id="div-subscribe">
+									<a href="https://www.linkedin.com/in/laislopesdejesus/">
+										<button id="subscribe" disabled>Quero triar material aos sábados</button>
+									</a>
 								</div>
 							</div>
 							
@@ -153,5 +153,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+	<script src="./js/volunteer.js"></script>
   </body>
 </html>
