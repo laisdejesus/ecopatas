@@ -1,5 +1,6 @@
 #main-home {
     margin: 0;
+    
 }
 
 #section-um {
@@ -234,13 +235,14 @@ i {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 160px;
+    padding: 120px 50px;
 
-    position: static;
+   
+    /* position: static;
     width: 1441px;
     height: 1369px;
     left: 0px;
-    top: 3059px;
+    top: 3059px; */
 
     /* branco */
 
@@ -295,7 +297,7 @@ i {
 }
 
 #lista {
-    padding-left: 80px;
+    padding-left: 70px;
     padding-bottom: 50px;
 
 }
@@ -331,6 +333,8 @@ i {
 }
 
 #section-seis {
+    /* Auto Layout */
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -338,6 +342,11 @@ i {
     width: 100vw;
     margin: 0;
 
+    position: static;
+    width: 1441px;
+    height: 1172px;
+    left: 0px;
+    top: 4428px;
 
     /* Verde Primária - Variações/verde.50 */
 
