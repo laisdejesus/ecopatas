@@ -1,0 +1,87 @@
+#main-donations {
+    margin: 120px 8%;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    flex: none;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+#main-donations h2 {
+
+    position: static;
+    width: 1121px;
+    height: 48px;
+    left: 160px;
+    top: 120px;
+
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 48px;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #007A68;
+
+    order: 0;
+    margin: 0px 0px 34px;
+
+}
+#section-1 {
+    margin: 38px 0px;
+}
+#section-2 {
+    margin-bottom: 38px;
+}
+
+#section-3 {
+    padding-right: 50px;
+}
+
+p {
+    padding-right: 0px;
+
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    letter-spacing: 0.2px;
+    color: #474747;
+
+    order: 0;
+ 
+}
+
+#section-1 img, #section-2 img {
+    position: static;
+    width: 444px;
+    height: 461px;
+    left: 677px;
+    top: 0px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 68px;
+
+}
+
+h5 {
+    padding-right: 0px;
+
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+
+    letter-spacing: 0.2px;
+
+    color: #007A68;
+
+    order: 0;
+ 
+}
