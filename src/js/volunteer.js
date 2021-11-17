@@ -1,5 +1,6 @@
 var divButton = document.getElementById('div-subscribe')
 var button = document.getElementById('subscribe')
+
 button.style.backgroundColor = "#cccccc";
 divButton.style.backgroundColor = "#cccccc";
 
