@@ -217,12 +217,97 @@ i {
 
 
 #section-tres {
-   background-color: #007A68;
+    background-color: #029784;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 120px 120px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+
+    /* branco */
+
+    color: #FFFFFF;
+}
+
+#section-tres h3 {
+
+    font-weight: bold;
+    font-size: 39.81px;
+    line-height: 48px;
+    /* identical to box height, or 121% */
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+#dados-flourish {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 1121px;
+    height: 154px;
+    left: 160px;
+    top: 236px;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 68px 0px;
+
+}
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 16px;
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+
+}
+.dados i {
+    font-size: 30px;
+    margin: 4px 15px 4px 0;
+
+}
+.dados p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    width:230px;
+    /* or 150% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+    /* display:flex;
+    justify-content:center; */
+}
+
+#outros-animais {
+    margin: 0px;
+}
+
+#all, #dogs, #cats, #other {
+    width: 100px;
+    height: 184px;
+
 }
 
 #section-quatro {
     background: #E0F2F0;
     padding: 120px 120px;
+    
 
 }
 
@@ -247,7 +332,7 @@ i {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 120px 50px;
+    padding: 120px 120px;
 
    
     /* position: static;
