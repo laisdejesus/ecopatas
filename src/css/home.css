@@ -180,11 +180,12 @@
 
 }
 
-.div-button a:hover {
+.btn-green a:hover {
     text-decoration: none;
+    box-shadow: 0 #007A68;
      
 }
-.div-button:hover, .btn-green:hover {
+.div-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     
 }
