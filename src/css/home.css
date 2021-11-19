@@ -26,7 +26,7 @@
 
 #section-um-infos h2 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 120%;
     font-weight: 700;
     margin: 0px 0;
@@ -35,17 +35,35 @@
     letter-spacing: 1px;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: #007A68;
+
     
 }
 
 #section-um-infos p {
+    position: static;
+    width: 448px;
+    height: 144px;
+    left: 0px;
+    top: 240px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 150%;
+    /* or 36px */
+
     letter-spacing: 0.2px;
     font-feature-settings: 'pnum' on, 'lnum' on;
+
+
     color: #E86B2B;
-    padding: 10px 0;
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px
 
 }
 
@@ -401,7 +419,7 @@ i {
 }
 
 #lista {
-    padding-left: 70px;
+    padding-left: 58px;
     padding-bottom: 50px;
 
 }
