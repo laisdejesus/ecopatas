@@ -63,13 +63,15 @@ h2 {
     margin-left: 1%;
 }
 
+#answers  {
+    display:flex;
+    flex-direction: column;
+    row-gap: 100px;
+    
+    padding-bottom: 160px;
+}
 
 #answers h6{
-    position: static;
-
-    height: 30px;
-    left: 0px;
-    top: 0px;
     padding-bottom: 0px;
     margin-bottom: 0px;
     
@@ -98,11 +100,9 @@ h2 {
 } 
 
 #answers p, #title p {
-    position: static;
-    height: 30px;
     left: 160px;
     top: 0px;
-    padding-bottom: 160px;
+    padding-bottom: 50px;
 
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -131,6 +131,16 @@ h2 {
     text-decoration-line: underline;
 
 }
+
+
+/* #question-quatro {
+    padding-top: 150px;
+}
+
+#answer-quatro {
+    padding-top: 50px;
+    padding-bottom: 0;
+} */
 
 footer {
     display:flex;
